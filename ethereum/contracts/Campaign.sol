@@ -49,7 +49,7 @@ contract campaign {
 
    }
 
-   //create a new straut of type request and add
+  //create a new straut of type request and add
    function createRequest(string description, uint value, address recipient, )
        public restricted{
        require(approvers[msg.sender])
